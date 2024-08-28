@@ -14,7 +14,7 @@
 }
 
 .header {
-    margin-top: 10px;
+    margin-top: 16px;
     padding: 0 190px;
     display: flex;
     align-items: center;
@@ -65,6 +65,7 @@ a {
     font-weight: 900;
     color: #F9FAF8;
     border: 0;
+    padding-bottom: 5px;
 }
 
 .textone {
@@ -88,7 +89,7 @@ a {
     justify-content: center;
     align-items: center;
     padding: 0 190px;
-    gap: 40px;
+    gap: 90px;
 }
 
 
@@ -97,4 +98,52 @@ a {
     margin-bottom: 120px;
     flex: 1;
     
+}
+
+.blocktwo {
+    background:#ffffff;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+    height: 500px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.headertwo {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    padding-bottom: 40px;
+}
+
+.blocks {
+    display: flex;
+    height: 170px;
+    width: 170px;
+    border: 4px solid #3882F6;
+    border-radius: 16px;
+
+}
+
+.all {
+    display: flex;
+    padding: 0 190px;
+    justify-content: center;
+    padding-bottom: 10px;
+
+}
+
+.all div {
+    color: rgb(109,116,125);
+    padding: 9px;
+    text-align: center;
+    font-size: 17px;
+}
+
+.section {
+    max-width: 200px;
 }
